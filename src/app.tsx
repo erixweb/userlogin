@@ -1,16 +1,6 @@
 import { useState } from "preact/hooks"
 import { supabase } from "./supabase"
 
-/*const nameList = [
-  "erixweb",
-  "midudev",
-  "laura",
-]
-const pictureList = [
-  "/vite.svg"
-]
-*/
-
 export function App() {
   const [mail, setMail] = useState("")
   const [password, setPassword] = useState("")
